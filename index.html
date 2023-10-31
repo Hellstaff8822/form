@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="forms">
+        <h1>Forms</h1>
+        <label class="field">
+          <span class="field__text">Label <span>*</span></span>
+          <input
+            class="field__input"
+            type="text"
+            placeholder="Enter your name"
+          />
+        </label>
+        <label class="field">
+          <span class="field__text">Textarea</span>
+          <textarea
+            class="field__textarea"
+            placeholder="Enter your text"
+          ></textarea>
+        </label>
+        <label class="field">
+          <span class="field__text">Select</span>
+          <select class="field__select">
+            <option value="Human">Human</option>
+            <option value="Bot">Bot</option>
+          </select>
+        </label>
+
+        <div class="row">
+          <label class="chk">
+            <input class="chk__input" type="checkbox" />
+            <span class="chk__check"></span>
+            <span class="chk__text">Item</span>
+          </label>
+          <label class="radio">
+            <input class="radio__input" type="checkbox" />
+            <span class="radio__check"></span>
+            <span class="radio__text">Item</span>
+          </label>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <button>Send</button>
+      </div>
+    </form>
+  </body>
+</html>
