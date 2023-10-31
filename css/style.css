@@ -235,9 +235,13 @@ button {
   padding: 10px 40px;
   cursor: pointer;
   margin-top: 20px;
-  outline: 0;
   border: 0;
   background-color: #adf9ef;
   font-size: 15px;
   border-radius: 10px;
+}
+
+button:hover{
+  background-color:#87e0d4;
+  outline: 2px solid #55a298;
 }
